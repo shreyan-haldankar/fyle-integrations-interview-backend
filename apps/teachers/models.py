@@ -1,5 +1,5 @@
 from django.db import models
-
+# from apps.students.models import Assignment
 from apps.internal.models import User
 
 
@@ -11,3 +11,4 @@ class Teacher(models.Model):
 
     class Meta:
         db_table = 'teachers'
+
